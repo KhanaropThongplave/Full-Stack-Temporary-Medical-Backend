@@ -5,7 +5,7 @@ import InformationModel from './models/information'
 import AppointmentModel from './models/appointment'
 import OtpModel from './models/otp'
 
-const sequelize = new Sequelize("smartcity", "postgres", "bitkub", {
+const sequelize = new Sequelize("medical", "postgres", "medical", {
   host: "localhost",
   dialect: "postgres",
 });
